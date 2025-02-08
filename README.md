@@ -35,7 +35,7 @@ Monkeytype is a typing test platform with many types of typing tests.To gather d
 ## Predictive modeling for wpm prediction 
 Linear Regression and Tree-Based Models - Random Forest, Decision Tree, Extra Trees, and Gradient Boosting were explored. Further performance of models - AdaBoost, ExtraTrees, catboost and Support Vector Regressor was also analysed. Futher, the best set of hyperparameters for these models was identified using Grid Search.
 
-To achieve higher accuracy and robustness, advanced models and techniques were implemented. An advanced neural network model was designed (fig. 4) with :
+To achieve higher accuracy and robustness, advanced models and techniques were implemented. An advanced neural network model was designed (fig) with :
 - Input Layer: Accepts preprocessed feature vectors as input. Second-degree polynomial features were generated with interaction terms only, enhancing the model's ability to capture non-linear relationships.
 - Hidden Layers: Includes layers with 128, 256, and 128 units, each employing ReLU activation, L2 regularization, batch normalization, and dropout (rates of 0.3 to 0.4) for improved generalization.
 - Residual Connection: Combines intermediate features to enhance representational capability.
