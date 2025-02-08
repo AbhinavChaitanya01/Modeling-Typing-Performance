@@ -47,3 +47,17 @@ This was follwed by a Stacking regressor which combined predictions from the neu
 ![image](https://github.com/user-attachments/assets/84db53fe-e715-4b62-a206-96ff308066f5)
 
 ## Performance evaluation of various models
+| Model Name                  | MAE     | MSE      | R2 Score |
+|-----------------------------|---------|----------|----------|
+| Linear Regression           | 32.2297 | 1899.7069 | 0.3981   |
+| Random Forest              | 12.9775 | 433.7010  | 0.8626   |
+| Decision Tree              | 17.4141 | 786.3706  | 0.7508   |
+| Support Vector Regressor   | 25.6303 | 1487.2555 | 0.5382   |
+| XGBoost                    | 12.9609 | 446.4729  | 0.8585   |
+| LightGBM                   | 12.9294 | 415.6362  | 0.8683   |
+| AdaBoostRegressor          | 25.7134 | 976.8982  | 0.6905   |
+| ExtraTreesRegressor        | 12.6264 | 410.1149  | 0.8700   |
+| CatBoostRegressor          | 12.8536 | 404.0528  | 0.8720   |
+| Gradient Boosting Regressor | 12.9192 | 412.9704  | 0.8691   |
+| Stacking Model             | 12.4984 | 393.2045  | 0.8754   |
+| **Hybrid Model**           | **12.3775** | **391.3187** | **0.8760** |
