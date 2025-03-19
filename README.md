@@ -64,3 +64,11 @@ This was follwed by a Stacking regressor which combined predictions from the neu
 | Gradient Boosting Regressor | 12.9192 | 412.9704  | 0.8691   |
 | Stacking Model             | 12.4984 | 393.2045  | 0.8754   |
 | **Hybrid Model**           | **12.3775** | **391.3187** | **0.8760** |
+
+## Contributors
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Aman-0604"><img src="https://github.com/Aman-0604.png" width="100px;" alt="" /><br /><sub><b>Aman Gupta</b></sub></a></td>
+    <td align="center"><a href="https://github.com/AbhinavChaitanya01"><img src="https://github.com/AbhinavChaitanya01.png" width="100px;" alt=""/><br /><sub><b>Abhinav Chaitanya</b></sub></a></td>
+  </tr>
+</table>
